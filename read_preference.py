@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from pymongo.read_preferences import ReadPreference
 import certifi
 
-conn = "mongodb+srv://jeffrey:<password>@study.nloqpdl.mongodb.net/?readPreference=secondary"
+conn = "mongodb+srv://jeffrey:qseawd12@study.nloqpdl.mongodb.net/?readPreference=secondary"
 # readPreference=secondary
 # -> secondary 요청으로 변경하는 옵션
 client = MongoClient(conn, tlsCAFile=certifi.where())
